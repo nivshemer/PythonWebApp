@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-        return jsonStr #This is the json string which returns all the user above age 10
+        return jsonStr #This is the json string which returns all the users above age 10
 
 pepole_string = '''
 {
